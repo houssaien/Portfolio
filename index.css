@@ -1,0 +1,189 @@
+.sidebar {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+  }
+  
+  .sidebar a {
+    display: block;
+    color: white;
+    padding: 16px;
+    text-decoration: none;
+  }
+   
+  .sidebar a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .sidebar a:hover:not(.active) {
+    background-color: white;
+    color: white;
+  }
+
+  .text-menu{
+    color: white;
+    font-weight: bold;
+    margin-top: 30px;
+}
+.dot {
+    height: 60px;
+    width: 60px;
+    background-color: #5499c7;
+    padding: 15px;
+    border-radius: 50%;
+    display: inline-block;
+    fill: white;
+    
+  }
+
+  .ani{
+   
+    
+    position: relative;
+    -webkit-animation-name: example;  /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 6s;  /* Safari 4.0 - 8.0 */  
+    -webkit-animation-fill-mode: forwards; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 6s;  
+    animation-fill-mode: forwards;
+  }
+
+  @keyframes example {
+    from {left: -500px;}
+    to {right: 0px; }
+  }
+
+  .ani1{
+   
+    
+    position: relative;
+    -webkit-animation-name: example1;  /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 8s;  /* Safari 4.0 - 8.0 */  
+    -webkit-animation-fill-mode: forwards; /* Safari 4.0 - 8.0 */
+    animation-name: example1;
+    animation-duration: 8s;  
+    animation-fill-mode: forwards;
+  }
+
+  @keyframes example1 {
+    from {left: -800px;}
+    to {right: 0px; }
+  }
+
+  .ani2{
+   
+    
+    position: relative;
+    -webkit-animation-name: example2;  /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 10s;  /* Safari 4.0 - 8.0 */  
+    -webkit-animation-fill-mode: forwards; /* Safari 4.0 - 8.0 */
+    animation-name: example2;
+    animation-duration: 10s;  
+    animation-fill-mode: forwards;
+  }
+
+  @keyframes example2 {
+    from {left: -1200px;}
+    to {right: 0px; }
+  }
+
+  .ani-cv{
+    position: relative;
+    -webkit-animation-name: example3;  /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 5s;  /* Safari 4.0 - 8.0 */  
+    -webkit-animation-fill-mode: forwards; /* Safari 4.0 - 8.0 */
+    animation-name: example3;
+    animation-duration: 5s;  
+    animation-fill-mode: forwards;
+  }
+
+  @keyframes example3 {
+    from {top: -1200px;}
+    to {top: 0px; }
+  }
+
+  .ani-project1{
+    position: relative;
+    -webkit-animation-name: example4;  /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 6s;  /* Safari 4.0 - 8.0 */  
+    -webkit-animation-fill-mode: forwards; /* Safari 4.0 - 8.0 */
+    animation-name: example4;
+    animation-duration: 6s;  
+    animation-fill-mode: forwards;
+  }
+
+  @keyframes example4 {
+    from {top: 1200px;}
+    to {top: 0px; }
+  }
+
+  .ani-project2{
+    position: relative;
+    -webkit-animation-name: example5;  /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 8s;  /* Safari 4.0 - 8.0 */  
+    -webkit-animation-fill-mode: forwards; /* Safari 4.0 - 8.0 */
+    animation-name: example5;
+    animation-duration: 8s;  
+    animation-fill-mode: forwards;
+  }
+
+  @keyframes example5 {
+    from {top: 1200px;}
+    to {top: 0px; }
+  }
+
+  .ani-project3{
+    position: relative;
+    -webkit-animation-name: example6;  /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 8s;  /* Safari 4.0 - 8.0 */  
+    -webkit-animation-fill-mode: forwards; /* Safari 4.0 - 8.0 */
+    animation-name: example6;
+    animation-duration: 8s;  
+    animation-fill-mode: forwards;
+  }
+
+  @keyframes example6 {
+    from {top: 1200px;}
+    to {top: 0px; }
+  }
+
+  span:hover {
+    background-color: #154360 
+  }
+
+  .change-my-color {
+    fill: tomato;
+  }
+  
+  div.content {
+    margin-left: 200px;
+    padding: 1px 16px;
+    height: 1000px;
+  }
+  
+  @media screen and (max-width: 700px) {
+    .sidebar {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    .sidebar a {float: left;}
+    div.content {margin-left: 0;}
+  }
+  
+  @media screen and (max-width: 400px) {
+    .sidebar a {
+      text-align: center;
+      float: none;
+    }
+}
+
+
+
+
+
