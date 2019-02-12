@@ -95,15 +95,15 @@
   .ani-cv{
     position: relative;
     -webkit-animation-name: example3;  /* Safari 4.0 - 8.0 */
-    -webkit-animation-duration: 5s;  /* Safari 4.0 - 8.0 */  
+    -webkit-animation-duration: 3s;  /* Safari 4.0 - 8.0 */  
     -webkit-animation-fill-mode: forwards; /* Safari 4.0 - 8.0 */
     animation-name: example3;
-    animation-duration: 5s;  
+    animation-duration: 3s;  
     animation-fill-mode: forwards;
   }
 
   @keyframes example3 {
-    from {top: -1200px;}
+    from {top: -1000px;}
     to {top: 0px; }
   }
 
